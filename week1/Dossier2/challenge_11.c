@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 void main(){
     int week;
     char weekString[20];
+
+    srand(time(0));
 
     week = rand() % 7;
 
